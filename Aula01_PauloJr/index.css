@@ -18,7 +18,19 @@ nav {
     overflow: hidden;
 }
 
-li {
+.inic {
+    float: right;
+}
+
+.formu {
+    float: right;
+}
+
+.post {
+    float: right;
+}
+
+.busc {
     float: right;
 }
 
@@ -76,20 +88,125 @@ li a:hover {
     font-size: 50px;
     letter-spacing: -5px;
     padding-bottom: 5%;
-    
+
 }
 
-input[type="text"]{
+input[type="text"] {
     width: 30%;
     height: 50px;
     font-size: xx-large;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     width: 10%;
     height: 50px;
     font-size: xx-large;
 }
-.contatos{
+
+.contatos {
     padding: 30px;
 }
+
 /*Fim Busca*/
+
+
+/*Começo postagem*/
+
+.postagem_imagem {
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    padding-top: 2%;
+    letter-spacing: -2px;
+}
+
+#coluna_img {
+    padding-right: 40px;
+    margin-top: 30px;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+
+
+}
+
+#coluna_text {
+    padding-top: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#chat_img {
+    border-radius: 10px;
+    height: 280px;
+}
+
+.res1,
+.res2,
+.res3,
+.res4 {
+    margin-left: 20px;
+}
+
+#chat,
+#open {
+    font-weight: bold;
+}
+
+/*Fim postagem*/
+
+/*Começo formulario*/
+
+.title_form {
+    text-align: center;
+    padding-top: 2%;
+    letter-spacing: -2px;
+}
+
+#form1 {
+    background-color: rgb(239, 238, 238);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.enviar {
+    margin-bottom: 5px;
+    height: 3vw;
+    width: 25vw;
+    background-color: rgb(95, 195, 100);
+    color: white;
+}
+
+.limpar {
+    margin-bottom: 5px;
+    height: 3vw;
+    width: 25vw;
+    background-color: rgb(224, 228, 1);
+    color: white;
+}
+
+#name,
+#telefone,
+#email {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#l1, #l3{
+    background-color: rgb(232, 231, 231);
+    font-weight: 500;
+}
+
+#l2, #l4{
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+#l0{
+    background-color: rgb(95, 195, 100);
+    color: white;
+}
+/*Fim formulario*/
